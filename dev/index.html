@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R9EW10BJGW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-R9EW10BJGW');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Developer Tools Online – JSON, JWT, Regex, CSS Gradient, WCAG | Yantra Dev</title>
+<meta name="description" content="Free dev tools: JSON formatter, JWT decoder, regex tester, cron parser, CSS gradient maker, WCAG color contrast checker & WhatsApp link generator. No sign-up.">
+<link rel="canonical" href="https://yantra.pages.dev/dev/">
+<meta property="og:title" content="Yantra Dev – Free Developer Tools">
+<meta property="og:description" content="JSON, JWT, regex, cron, CSS gradient, WCAG contrast & more — browser-based, no sign-up.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yantra.pages.dev/dev/">
+<meta property="og:image" content="https://nxtcraft.github.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--gold:#f59e0b;--gold-light:#fcd34d;--purple:#7c3aed;--blue:#3b82f6;--bg:#0a0618;--bg2:#110d26;--bg3:#1a1535;--border:rgba(59,130,246,.15);--text:#f1f5f9;--muted:#94a3b8;--card:rgba(255,255,255,.04)}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;line-height:1.6}
+nav{background:rgba(10,6,24,.95);border-bottom:1px solid rgba(245,158,11,.15);padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.brand-mark{width:32px;height:32px;background:linear-gradient(135deg,#f59e0b,#7c3aed);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem}
+.brand-name{font-size:1.1rem;font-weight:800;background:linear-gradient(135deg,#fcd34d,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links{display:flex;gap:1.5rem}
+.nav-links a{color:var(--muted);font-size:.85rem;text-decoration:none;transition:color .15s}
+.nav-links a:hover,.nav-links a.active{color:#f59e0b}
+.hero{text-align:center;padding:3.5rem 1.5rem 2rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(23,37,84,.35) 0%,transparent 70%);pointer-events:none}
+.cat-badge{display:inline-flex;align-items:center;gap:.4rem;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.35);border-radius:20px;padding:.3rem .9rem;font-size:.78rem;font-weight:600;color:#93c5fd;margin-bottom:1rem}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.15;margin-bottom:.75rem}
+h1 span{background:linear-gradient(135deg,#93c5fd,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{color:var(--muted);font-size:1rem;max-width:520px;margin:0 auto 1.5rem}
+main{max-width:1000px;margin:0 auto;padding:0 1rem 4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin-bottom:2rem}
+.card{background:var(--card);border:1px solid rgba(59,130,246,.12);border-radius:16px;padding:1.4rem;text-decoration:none;color:var(--text);transition:all .2s;display:block}
+.card:hover{border-color:#3b82f6;background:rgba(59,130,246,.06);transform:translateY(-2px)}
+.card-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:.8rem}
+.card-name{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+.card-desc{font-size:.82rem;color:var(--muted);line-height:1.5;margin-bottom:.6rem}
+.card-features{display:flex;flex-wrap:wrap;gap:.3rem}
+.feat{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:10px;background:rgba(59,130,246,.1);color:#93c5fd}
+.info-box{background:var(--bg2);border:1px solid rgba(245,158,11,.15);border-radius:12px;padding:1.25rem 1.5rem;margin:2rem 0;font-size:.88rem;color:var(--muted);line-height:1.7}
+.info-box h3{color:var(--text);font-size:.95rem;margin-bottom:.4rem}
+footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.78rem;border-top:1px solid rgba(245,158,11,.15)}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:#f59e0b}
+@media(max-width:600px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="brand" href="/">
+    <div class="brand-mark">⚙️</div>
+    <span class="brand-name">Yantra</span>
+  </a>
+  <div class="nav-links">
+    <a href="/finance/">💰 Finance</a>
+    <a href="/pdf/">📄 PDF</a>
+    <a href="/ai/">🤖 AI</a>
+    <a href="/dev/" class="active">🛠️ Dev</a>
+    <a href="/image/">🖼️ Image</a>
+    <a href="/docs/">📋 Docs</a>
+    <a href="/health/">❤️ Health</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="cat-badge">🛠️ Yantra Dev</div>
+  <h1>Free <span>Dev Tools</span><br>For Every Developer</h1>
+  <p class="hero-sub">JSON, JWT, regex, cron, CSS gradients, WCAG contrast & more — fast, offline, no sign-up, no data stored.</p>
+</section>
+
+<main>
+  <div class="grid">
+
+    <a class="card" href="https://nxtcraft.github.io/devlab/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#17254420;border:1px solid #17254440">🛠️</div>
+      <div class="card-name">DevLab — 10+ Tools</div>
+      <div class="card-desc">All-in-one dev toolkit: JSON formatter & validator, JWT decoder, regex tester with match highlight, cron parser (next 5 runs), base64 encode/decode, URL encode/decode, text diff, UUID generator, hash generator & more.</div>
+      <div class="card-features"><span class="feat">JSON</span><span class="feat">JWT</span><span class="feat">Regex</span><span class="feat">Cron</span><span class="feat">Base64</span><span class="feat">Diff</span><span class="feat">UUID</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/css-gradient/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#2e106520;border:1px solid #2e106540">🌈</div>
+      <div class="card-name">CSS Gradient Maker</div>
+      <div class="card-desc">Build linear, radial & conic CSS gradients with a live preview. Add multiple colour stops, adjust angles, copy the final CSS — ready to paste into your stylesheet.</div>
+      <div class="card-features"><span class="feat">Linear</span><span class="feat">Radial</span><span class="feat">Conic</span><span class="feat">Multi-stop</span><span class="feat">Live Preview</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/color-contrast/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#1e1b4b20;border:1px solid #1e1b4b40">🎨</div>
+      <div class="card-name">Color Contrast Checker</div>
+      <div class="card-desc">Check WCAG 2.1 AA & AAA colour contrast ratios for text and UI elements. Enter foreground and background colours, see pass/fail instantly, and get alternative accessible colour suggestions.</div>
+      <div class="card-features"><span class="feat">WCAG AA</span><span class="feat">WCAG AAA</span><span class="feat">Accessibility</span><span class="feat">Hex/RGB/HSL</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/wa-link/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#06173b20;border:1px solid #06173b40">💬</div>
+      <div class="card-name">WhatsApp Link Generator</div>
+      <div class="card-desc">Generate WhatsApp click-to-chat links with pre-filled messages — no need to save a contact. Perfect for business websites, support buttons, and marketing campaigns. Generates wa.me links and QR codes.</div>
+      <div class="card-features"><span class="feat">wa.me Link</span><span class="feat">Pre-filled Text</span><span class="feat">QR Code</span><span class="feat">Country Codes</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/passgen/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#2e106520;border:1px solid #2e106540">🔑</div>
+      <div class="card-name">Password Generator</div>
+      <div class="card-desc">Generate strong, random passwords with custom length and character rules (uppercase, lowercase, numbers, symbols). Includes password strength meter and bulk generation (up to 20 at once).</div>
+      <div class="card-features"><span class="feat">Custom Rules</span><span class="feat">Strength Meter</span><span class="feat">Bulk Generate</span><span class="feat">Offline</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/unitconv/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#0c4a6e20;border:1px solid #0c4a6e40">📐</div>
+      <div class="card-name">Unit Converter</div>
+      <div class="card-desc">Convert between units for length, weight, temperature, area, volume, speed, data storage and more. Instant results as you type, no server call needed.</div>
+      <div class="card-features"><span class="feat">Length</span><span class="feat">Weight</span><span class="feat">Temperature</span><span class="feat">Data</span><span class="feat">Area</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/qrlab/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#1e1b4b20;border:1px solid #1e1b4b40">◼️</div>
+      <div class="card-name">QR Code Generator</div>
+      <div class="card-desc">Generate QR codes for URLs, WiFi credentials, plain text, and vCard contacts. Customise colours, download as PNG or SVG — no watermark.</div>
+      <div class="card-features"><span class="feat">URL</span><span class="feat">WiFi</span><span class="feat">vCard</span><span class="feat">Custom Color</span><span class="feat">PNG/SVG</span></div>
+    </a>
+
+  </div>
+
+  <div class="info-box">
+    <h3>⚡ Why these tools beat online alternatives</h3>
+    <p>No ads injected mid-use. No "sign up to continue" gate. No network call for every format/validate action — everything runs in-browser with zero latency. Bookmark DevLab for instant daily use: JSON formatting, JWT debugging, and regex testing all in one tab. Works fully offline once cached.</p>
+  </div>
+</main>
+
+<footer>
+  <p>© 2024-2026 Yantra · <a href="/">All Tools</a> · <a href="https://nxtcraft.github.io/privacy/">Privacy Policy</a> · <a href="https://nxtcraft.github.io/terms/">Terms</a></p>
+</footer>
+</body>
+</html>

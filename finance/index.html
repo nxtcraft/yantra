@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R9EW10BJGW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-R9EW10BJGW');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Finance Calculators India – EMI, SIP, Tax, GST, FD | Yantra Finance</title>
+<meta name="description" content="10 free finance calculators for India — EMI, SIP, income tax (old vs new), GST, FD, NPS, EPF, PPF, gratuity & trading. No sign-up. 100% private.">
+<link rel="canonical" href="https://yantra.pages.dev/finance/">
+<meta property="og:title" content="Yantra Finance – 10 Free Finance Calculators India">
+<meta property="og:description" content="EMI, SIP, Tax, GST, FD & more — no sign-up, 100% client-side.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yantra.pages.dev/finance/">
+<meta property="og:image" content="https://nxtcraft.github.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Yantra Finance","description":"Free finance calculators for India","url":"https://yantra.pages.dev/finance/","hasPart":[{"@type":"WebApplication","name":"EMI Calculator","url":"https://nxtcraft.github.io/emicalc/"},{"@type":"WebApplication","name":"SIP Calculator","url":"https://nxtcraft.github.io/sipcalc/"},{"@type":"WebApplication","name":"Income Tax Calculator","url":"https://nxtcraft.github.io/taxcalc/"},{"@type":"WebApplication","name":"GST Calculator","url":"https://nxtcraft.github.io/gstcalc/"},{"@type":"WebApplication","name":"FD Calculator","url":"https://nxtcraft.github.io/fdcalc/"}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--gold:#f59e0b;--gold-light:#fcd34d;--purple:#7c3aed;--bg:#0a0618;--bg2:#110d26;--bg3:#1a1535;--border:rgba(245,158,11,.15);--text:#f1f5f9;--muted:#94a3b8;--card:rgba(255,255,255,.04)}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;line-height:1.6}
+nav{background:rgba(10,6,24,.95);border-bottom:1px solid var(--border);padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.brand-mark{width:32px;height:32px;background:linear-gradient(135deg,var(--gold),var(--purple));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem}
+.brand-name{font-size:1.1rem;font-weight:800;background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links{display:flex;gap:1.5rem}
+.nav-links a{color:var(--muted);font-size:.85rem;text-decoration:none;transition:color .15s}
+.nav-links a:hover,.nav-links a.active{color:var(--gold)}
+.hero{text-align:center;padding:3.5rem 1.5rem 2rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(245,158,11,.12) 0%,transparent 70%);pointer-events:none}
+.cat-badge{display:inline-flex;align-items:center;gap:.4rem;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.3);border-radius:20px;padding:.3rem .9rem;font-size:.78rem;font-weight:600;color:var(--gold);margin-bottom:1rem}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.15;margin-bottom:.75rem}
+h1 span{background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{color:var(--muted);font-size:1rem;max-width:520px;margin:0 auto 1.5rem}
+main{max-width:1000px;margin:0 auto;padding:0 1rem 4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin-bottom:2rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.4rem;text-decoration:none;color:var(--text);transition:all .2s;display:block}
+.card:hover{border-color:var(--gold);background:rgba(245,158,11,.06);transform:translateY(-2px)}
+.card-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:.8rem}
+.card-name{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+.card-desc{font-size:.82rem;color:var(--muted);line-height:1.5;margin-bottom:.6rem}
+.card-features{display:flex;flex-wrap:wrap;gap:.3rem}
+.feat{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:10px;background:rgba(245,158,11,.1);color:var(--gold)}
+.guide-link{display:inline-flex;align-items:center;gap:.25rem;font-size:.75rem;color:var(--gold);font-weight:600;margin-top:.5rem;text-decoration:none;opacity:.8}
+.guide-link:hover{opacity:1}
+.section-h{font-size:1.15rem;font-weight:800;margin:2.5rem 0 1rem;display:flex;align-items:center;gap:.5rem}
+.info-box{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.5rem;margin:2rem 0;font-size:.88rem;color:var(--muted);line-height:1.7}
+.info-box h3{color:var(--text);font-size:.95rem;margin-bottom:.4rem}
+footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.78rem;border-top:1px solid var(--border)}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--gold)}
+@media(max-width:600px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="brand" href="/">
+    <div class="brand-mark">⚙️</div>
+    <span class="brand-name">Yantra</span>
+  </a>
+  <div class="nav-links">
+    <a href="/finance/" class="active">💰 Finance</a>
+    <a href="/pdf/">📄 PDF</a>
+    <a href="/ai/">🤖 AI</a>
+    <a href="/dev/">🛠️ Dev</a>
+    <a href="/image/">🖼️ Image</a>
+    <a href="/docs/">📋 Docs</a>
+    <a href="/health/">❤️ Health</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="cat-badge">💰 Yantra Finance</div>
+  <h1>Free <span>Finance Calculators</span><br>Built for India</h1>
+  <p class="hero-sub">EMI, SIP, income tax, GST, FD, NPS, EPF, PPF & trading — all free, all private, no sign-up.</p>
+</section>
+
+<main>
+  <div class="grid">
+
+    <a class="card" href="https://nxtcraft.github.io/emicalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#1e3a8a20;border:1px solid #1e3a8a40">🏦</div>
+      <div class="card-name">EMI Calculator</div>
+      <div class="card-desc">Calculate home loan, car loan & personal loan EMI with full amortisation table, prepayment analysis and balance transfer savings.</div>
+      <div class="card-features"><span class="feat">Home Loan</span><span class="feat">Car Loan</span><span class="feat">Balance Transfer</span><span class="feat">Amortisation</span></div>
+      <a class="guide-link" href="https://nxtcraft.github.io/emicalc/guide/">📖 EMI Guide →</a>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/sipcalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#14532d20;border:1px solid #14532d40">📈</div>
+      <div class="card-name">SIP Calculator</div>
+      <div class="card-desc">Calculate SIP returns, step-up SIP, goal-based SIP planning and lump sum comparison. Covers LTCG tax on mutual fund gains.</div>
+      <div class="card-features"><span class="feat">Step-up SIP</span><span class="feat">Goal Planning</span><span class="feat">LTCG Tax</span><span class="feat">Lump Sum</span></div>
+      <a class="guide-link" href="https://nxtcraft.github.io/sipcalc/guide/">📖 SIP Guide →</a>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/taxcalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#78350f20;border:1px solid #78350f40">💰</div>
+      <div class="card-name">Income Tax Calculator</div>
+      <div class="card-desc">Old vs new tax regime comparison FY 2024-25. Includes surcharge, 87A rebate, standard deduction, and all major exemptions.</div>
+      <div class="card-features"><span class="feat">Old vs New</span><span class="feat">FY 2024-25</span><span class="feat">Surcharge</span><span class="feat">87A Rebate</span></div>
+      <a class="guide-link" href="https://nxtcraft.github.io/taxcalc/guide/">📖 Tax Guide →</a>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/gstcalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#7c2d1220;border:1px solid #7c2d1240">🧾</div>
+      <div class="card-name">GST Calculator</div>
+      <div class="card-desc">CGST/SGST/IGST calculator with inclusive & exclusive modes. Covers all slabs: 5%, 12%, 18%, 28%. HSN code lookup included.</div>
+      <div class="card-features"><span class="feat">CGST/SGST</span><span class="feat">IGST</span><span class="feat">Inclusive/Exclusive</span><span class="feat">All Slabs</span></div>
+      <a class="guide-link" href="https://nxtcraft.github.io/gstcalc/guide/">📖 GST Guide →</a>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/fdcalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#1e3a8a20;border:1px solid #1e3a8a40">🏧</div>
+      <div class="card-name">FD & RD Calculator</div>
+      <div class="card-desc">Fixed deposit & recurring deposit maturity with TDS, compounding (monthly/quarterly/annual) and bank rate comparison.</div>
+      <div class="card-features"><span class="feat">Fixed Deposit</span><span class="feat">Recurring Deposit</span><span class="feat">TDS</span><span class="feat">Bank Rates</span></div>
+      <a class="guide-link" href="https://nxtcraft.github.io/fdcalc/guide/">📖 FD Guide →</a>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/pfcalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#06173b20;border:1px solid #06173b40">🏛️</div>
+      <div class="card-name">EPF · PPF · SSY</div>
+      <div class="card-desc">Employee Provident Fund, Public Provident Fund & Sukanya Samriddhi Yojana maturity with tax benefits under Section 80C.</div>
+      <div class="card-features"><span class="feat">EPF</span><span class="feat">PPF</span><span class="feat">Sukanya Samriddhi</span><span class="feat">80C</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/gratuity/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#78350f20;border:1px solid #78350f40">🎁</div>
+      <div class="card-name">Gratuity Calculator</div>
+      <div class="card-desc">Gratuity & leave encashment under Payment of Gratuity Act. Covers both govt & private sector employees with tax exemptions.</div>
+      <div class="card-features"><span class="feat">Gratuity Act</span><span class="feat">Leave Encashment</span><span class="feat">Tax Exemption</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/taxcalc/advance-tax/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#78350f20;border:1px solid #78350f40">📅</div>
+      <div class="card-name">Advance Tax Calculator</div>
+      <div class="card-desc">FY 2024-25 advance tax instalments (Jun 15, Sep 15, Dec 15, Mar 15) with Section 234B & 234C interest penalty calculator.</div>
+      <div class="card-features"><span class="feat">4 Instalments</span><span class="feat">234B/234C</span><span class="feat">FY 2024-25</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/taxcalc/nps/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#31297120;border:1px solid #31297140">🏛️</div>
+      <div class="card-name">NPS Calculator</div>
+      <div class="card-desc">National Pension System maturity, annuity & lump-sum split with Section 80CCD(1B) ₹50,000 extra deduction benefit.</div>
+      <div class="card-features"><span class="feat">NPS Tier 1</span><span class="feat">80CCD(1B)</span><span class="feat">Annuity</span></div>
+    </a>
+
+    <a class="card" href="https://nxtcraft.github.io/tradecalc/" target="_blank" rel="noopener">
+      <div class="card-icon" style="background:#17254420;border:1px solid #17254440">📊</div>
+      <div class="card-name">Trading Calculator</div>
+      <div class="card-desc">8 tools for traders: position size, lot size, brokerage, P&L, risk/reward, pip value, compound interest & F&O margin.</div>
+      <div class="card-features"><span class="feat">F&O</span><span class="feat">Brokerage</span><span class="feat">Position Size</span><span class="feat">P&L</span></div>
+    </a>
+
+  </div>
+
+  <div class="info-box">
+    <h3>💡 Why use Yantra Finance?</h3>
+    <p>All calculators run entirely in your browser — your financial data never leaves your device. No sign-up, no ads on the tool pages, no data collection. Built specifically for Indian users: rupee amounts, Indian tax slabs (FY 2024-25), Indian banks' FD rates, SEBI charges for F&O, and India-specific schemes like EPF, PPF, NPS, and Sukanya Samriddhi.</p>
+    <p style="margin-top:.6rem;font-size:.8rem">⚠️ All calculators are for informational purposes only. For tax advice, consult a Chartered Accountant. Figures may differ from actual bank/broker calculations.</p>
+  </div>
+</main>
+
+<footer>
+  <p>© 2024-2026 Yantra · <a href="/">All Tools</a> · <a href="https://nxtcraft.github.io/privacy/">Privacy Policy</a> · <a href="https://nxtcraft.github.io/terms/">Terms</a></p>
+</footer>
+</body>
+</html>
